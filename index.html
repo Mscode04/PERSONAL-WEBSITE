@@ -22,6 +22,17 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
+ 
+      <audio id="myAudio" src=" https://open.spotify.com/track/6xsOIolcDvXCHyJkpWJVuk?si=c6c10735329c4711" autoplay></audio>
+    <script>
+        window.onload = function() {
+            var audio = document.getElementById('myAudio');
+            audio.play().catch(function(error) {
+                console.log('Autoplay prevented:', error);
+            });
+        };
+    </script>
+  
 <body class="index-page">
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
