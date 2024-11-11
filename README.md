@@ -1,12 +1,6 @@
 It looks like you have a well-structured HTML template for a personal website or portfolio. Here’s a breakdown of the main sections and some suggestions:
 
 ### Structure Overview:
-
-1. **Head Section:**
-   - Includes meta tags for charset, viewport, and SEO.
-   - Links to external stylesheets for fonts, Bootstrap, and other CSS files.
-   - Favicon for the site.
-
 2. **Body Section:**
    - **Header:** 
      - Contains the site logo and navigation menu.
